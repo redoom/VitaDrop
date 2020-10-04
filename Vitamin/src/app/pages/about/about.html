@@ -1,0 +1,144 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Speakers</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="about-info">
+    <ion-grid>
+        <ion-row>
+          <ion-card style="background-color: #f64e60;">
+            <ion-card-header>
+              <ion-card-title style="color: #ffffff;">Card Title</ion-card-title>
+            </ion-card-header>
+          
+            <ion-card-content style="padding:0px !important">
+              <apx-chart
+                [series]="chartOptions1.series"
+                [chart]="chartOptions1.chart"
+                [xaxis]="chartOptions1.xaxis"
+                [title]="chartOptions1.title"
+                [grid]="chartOptions1.grid"
+                [yaxis]="chartOptions1.yaxis"
+                [stroke]="chartOptions1.stroke"
+              ></apx-chart>
+            </ion-card-content>
+            <div class="card_spacer">
+              <button class="button-sq red-color">Act</button>
+              <button class="button-sq red-color">Act</button>
+            </div>
+          </ion-card>
+        </ion-row>
+        <ion-row>
+          <ion-card style="background-color: #ffa800;">
+            <ion-card-header>
+              <ion-card-title style="color: #ffffff;">Card Title</ion-card-title>
+            </ion-card-header>
+          
+            <ion-card-content style="padding:0px !important">
+              <apx-chart
+                [series]="chartOptions2.series"
+                [chart]="chartOptions2.chart"
+                [xaxis]="chartOptions2.xaxis"
+                [title]="chartOptions2.title"
+                [grid]="chartOptions2.grid"
+                [yaxis]="chartOptions2.yaxis"
+                [stroke]="chartOptions2.stroke"
+              ></apx-chart>
+            </ion-card-content>
+            <div class="card_spacer">
+              <button class="button-sq orange-color">Act</button>
+              <button class="button-sq orange-color">Act</button>
+            </div>
+          </ion-card>
+        </ion-row>
+        <ion-row>
+          <ion-card style="background-color: #1bc5bd;">
+            <ion-card-header>
+              <ion-card-title style="color: #ffffff;">Card Title</ion-card-title>
+            </ion-card-header>
+          
+            <ion-card-content style="padding:0px !important">
+              <apx-chart
+                [series]="chartOptions3.series"
+                [chart]="chartOptions3.chart"
+                [xaxis]="chartOptions3.xaxis"
+                [title]="chartOptions3.title"
+                [grid]="chartOptions3.grid"
+                [yaxis]="chartOptions3.yaxis"
+                [stroke]="chartOptions3.stroke"
+              ></apx-chart>
+            </ion-card-content>
+            <div class="card_spacer">
+              <button class="button-sq green-color">Act</button>
+              <button class="button-sq green-color">Act</button>
+            </div>
+          </ion-card>
+ 
+        </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title >My Activity</ion-card-title>
+            </ion-card-header>
+
+            <ion-card class="card-no-border">  
+              <ion-card-header>
+                <ion-grid>
+                  <ion-row>
+                    <ion-icon class="icon-card" style="background: #ffe2e5; color: #f64e60 ;" name="wine-outline"></ion-icon>
+                    <p class="card-p">Work out!</p>
+                    <ion-icon class="icon-card" style="padding-left: 30px; color: #41a828;" name="checkmark-circle-outline"></ion-icon>
+                  </ion-row>
+                </ion-grid>
+              </ion-card-header>         
+            </ion-card>
+            
+            <ion-card class="card-no-border">  
+              <ion-card-header>
+                <ion-grid>
+                  <ion-row>
+                    <ion-icon class="icon-card" style="background: #ffe2e5; color: #f64e60 ;" name="wine-outline"></ion-icon>
+                    <p class="card-p">Drink it!</p>
+                    <ion-icon class="icon-card" style="padding-left: 30px; color: #41a828;" name="checkmark-circle-outline"></ion-icon>
+                  </ion-row>
+                </ion-grid>
+              </ion-card-header>         
+            </ion-card>
+
+            <ion-card class="card-no-border">  
+              <ion-card-header>
+                <ion-grid>
+                  <ion-row>
+                    <ion-icon class="icon-card" style="background: #ffe2e5; color: #f64e60 ;" name="wine-outline"></ion-icon>
+                    <p class="card-p">Go to Work!</p>
+                    <ion-icon class="icon-card" style="padding-left: 30px; color: #41a828;" name="checkmark-circle-outline"></ion-icon>
+                  </ion-row>
+                </ion-grid>
+              </ion-card-header>         
+            </ion-card>
+
+            <ion-card class="card-no-border">  
+              <ion-card-header>
+                <ion-grid>
+                  <ion-row>
+                    <ion-icon class="icon-card" style="background: #ffe2e5; color: #f64e60 ;" name="wine-outline"></ion-icon>
+
+                    <p class="card-p">Package is coming!</p>
+                    <ion-icon class="icon-card" style="padding-left: 30px; color: #41a828;" name="checkmark-circle-outline"></ion-icon>
+                  </ion-row>
+                </ion-grid>
+              </ion-card-header>         
+            </ion-card>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
